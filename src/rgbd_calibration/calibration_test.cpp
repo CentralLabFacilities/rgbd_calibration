@@ -1081,7 +1081,7 @@ void CalibrationTest::testCube() const
 
       if (found)
       {
-        cv::vector<cv::Point> points;
+        std::vector<cv::Point> points;
         /*points.push_back(cv::Point(corners[0].x(), corners[0].y()));
         points.push_back(cv::Point(corners[3].x(), corners[3].y()));
         points.push_back(cv::Point(corners[15].x(), corners[15].y()));
@@ -1113,7 +1113,7 @@ void CalibrationTest::testCube() const
 
         if (found)
         {
-          cv::vector<cv::Point> points;
+          std::vector<cv::Point> points;
 
           points.push_back(cv::Point(tmp_corners[0].x(), tmp_corners[0].y()));
           points.push_back(cv::Point(tmp_corners[5].x(), tmp_corners[5].y()));
